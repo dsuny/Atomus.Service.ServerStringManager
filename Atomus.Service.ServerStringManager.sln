@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50A81361-7998-40F6-BD88-EAC547467E21}"
+	ProjectSection(SolutionItems) = preProject
+		src\ServerStringManager.cs = src\ServerStringManager.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.ServerStringManager(dotNet)", "dotNet\Atomus.Service.ServerStringManager(dotNet).csproj", "{9DCE1381-A981-42D8-97AD-163D956B8020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{9EE256B5-F5FF-43AB-90F1-7836B87B629C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\ServerStringManagerController.cs = src\Controllers\ServerStringManagerController.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.ServerStringManager(dotNetCore)", "dotNetCore\Atomus.Service.ServerStringManager(dotNetCore).csproj", "{3F7B83DF-503F-4BBA-BDD0-965FC2A1EF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.ServerStringManager(dotNetStandard)", "dotNetStandard\Atomus.Service.ServerStringManager(dotNetStandard).csproj", "{34B3C57A-CBF4-4535-A801-501339E91033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DCE1381-A981-42D8-97AD-163D956B8020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCE1381-A981-42D8-97AD-163D956B8020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCE1381-A981-42D8-97AD-163D956B8020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCE1381-A981-42D8-97AD-163D956B8020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7B83DF-503F-4BBA-BDD0-965FC2A1EF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7B83DF-503F-4BBA-BDD0-965FC2A1EF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7B83DF-503F-4BBA-BDD0-965FC2A1EF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7B83DF-503F-4BBA-BDD0-965FC2A1EF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B3C57A-CBF4-4535-A801-501339E91033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B3C57A-CBF4-4535-A801-501339E91033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B3C57A-CBF4-4535-A801-501339E91033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B3C57A-CBF4-4535-A801-501339E91033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EE256B5-F5FF-43AB-90F1-7836B87B629C} = {50A81361-7998-40F6-BD88-EAC547467E21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F46CF229-C44A-4D7E-A54B-450B0D053B52}
+	EndGlobalSection
+EndGlobal
